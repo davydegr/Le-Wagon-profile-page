@@ -1,0 +1,36 @@
+.experience {
+  padding: 5rem 0;
+}
+
+.experience > h2 {
+  margin-bottom: 3rem;
+  font-size: 3rem;
+}
+
+.experience-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: stretch;
+  grid-gap: 15px;
+  width: 100%;
+}
+
+.experience-grid-left {
+  align-self: stretch;
+}
+
+.experience-grid-right {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 15px;
+}
+
+@media(max-width: 720px) {
+  .experience-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .experience-grid-right {
+    grid-template-columns: 1fr;
+  }
+}

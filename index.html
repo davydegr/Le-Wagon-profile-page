@@ -5,45 +5,45 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
   <title>Davy's profile</title>
 </head>
 <body>
+  <div class="hero">
+    <img class="hero-img" src="img/davy-no-bg.png" alt="Davy De Groote">
+    <h1 class="text-shadow">davy<br><span class="spacer-50px"></span>De Groote</h1>
+    <h2>Junior Web Developer</h2>
+  </div>
 
   <div class="container">
-
-    <div class="card">
-      <img src="img/davydegr.jpg" alt="Davy De Groote" class="circle-img center" id="profile-picture">
-      <h1>Davy De Groote</h1>
-      <h2>Junior full-stack developer</h2>
-      <p>Learning to code through Le Wagon's full-stack development bootcamp</p>
-      <a href="https://lewagon.com">Learn more about Le Wagon</a>
-    </div>
-
-
-    <div class="card">
-      <h2>Follow me wherever you like:</h2>
-      <ul class="inline-list">
-        <li>
-          <a href="https://instagram.com/davydegr" class="icon-standard-size icon-5-padding">
-            <i class="fa-brands fa-instagram" target="_blank"></i>
+    <div class="experience">
+      <h2 class="text-gradient text-shadow">Experience</h2>
+      <div class="experience-grid">
+        <div class="experience-grid-left">
+          <a href="https://lewagon.com" target="_blank" class="card-link">
+            <div class="card bg-lightgrey border shadow text-md" style="background-image: linear-gradient(210deg, rgba(42, 26, 216, 0.6), rgba(185,72, 255, 0.6)), url('img/lewagon.webp');">Le Wagon Web Development Bootcamp</div>
           </a>
-        </li>
+        </div>
+        <div class="experience-grid-right">
 
-        <li>
-          <a href="https://tiktok.com/@opmijntalloor" class="icon-standard-size icon-5-padding">
-            <i class="fa-brands fa-tiktok" target="_blank"></i>
+          <a href="https://en.wikipedia.org/wiki/CS50" target="_blank" class="card-link">
+            <div class="card bg-lightgrey border shadow" style="background-image: linear-gradient(210deg, rgba(42, 26, 216, 0.6), rgba(185,72, 255, 0.6)), url('img/cs50.jpg');">Harvard's CS50 (online)</div>
           </a>
-        </li>
 
-        <li>
-          <a href="https://linkedin.com/in/davydegr" class="icon-standard-size icon-5-padding">
-            <i class="fa-brands fa-linkedin-in" target="_blank"></i>
+          <a href="https://www.udemy.com/course/the-complete-javascript-course/" target="_blank" class="card-link">
+            <div class="card bg-lightgrey border shadow" style="background-image: linear-gradient(210deg, rgba(42, 26, 216, 0.6), rgba(185,72, 255, 0.6)), url('img/javascript.jpg');">The Complete JavaScript Course (online)</div>
           </a>
-        </li>
 
-      </ul>
+          <a  class='card-link' href="https://github.com/davydegr/CSS_components" target="_blank">
+            <div class="card bg-lightgrey border shadow" style="background-image: linear-gradient(210deg, rgba(42, 26, 216, 0.6), rgba(185,72, 255, 0.6)), url('img/css.jpg');">CSS Components</div>
+          </a>
+          <div class="card"><a class="card-link" href="https://github.com/davydegr" target="_blank"><i class="fa-brands fa-github"></i> Discover more on GitHub</a></div>
+        </div>
+      </div>
     </div>
   </div>
-</body>
+
+  <div style="height: 1000px;"></div>
+<body>
+
 </html>
